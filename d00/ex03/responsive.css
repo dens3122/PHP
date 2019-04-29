@@ -1,0 +1,38 @@
+body {
+	background-image:url("https://static.independent.co.uk/s3fs-public/styles/story_large/public/thumbnails/image/2016/02/08/13/DmitriMendeleev.jpg");
+	background-size: cover;
+	opacity: 0.7;
+}
+table {
+	width: 100%;
+	background: white;
+	color: black;
+	border-spacing: 0.1vw;
+}
+td {
+	height: 60%;
+	width :	5%;
+	border: 0.1vw solid black;
+}
+.weigth {
+	font-size: 1vmin;
+	margin: 0;
+	text-align: right;
+}
+.elem {
+	font-size: 1.5vmin;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center; 
+	font-weight: bold;
+}
+.number {
+	font-size: 1.5vmin;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	text-align:left; 
+}
