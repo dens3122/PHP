@@ -1,0 +1,17 @@
+
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles Vertex’s coordinates.
+
+An instance can be contructed from either a coordinates and color value:
+new Vertex( array( 'x' => 1.0, 'y' => 0.0, 'z' => 0.0, 'color' => $green ) );
+
+There are also two optional parameters:
+'w' - homogeneous coordinate, that is usually used in projective geometry.
+The default value of 'w' is 1.00.
+'color' - sets the color of the vertex using class Color.
+Could be passed either as array, or as a Color instance.
+The default value of 'color' is rgb(255, 255, 255), or 'white'.
+
+The above mentioned parameters are private but can be read and written
+thanks to special accessors (the syntax is usual).
+---------------------------------------------------------------------- Vertex ->
